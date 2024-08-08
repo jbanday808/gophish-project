@@ -61,6 +61,17 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 - **Update the password for the admin user**: UPDATE users SET hash = 'your_generated_hash' WHERE username = 'admin';
 - **Exit SQLite**: .exit
 
+**Creating a Phishing Campaign**:
+
+1. **Create a New Landing Page**:
+   
+- Navigate to **Landing Pages** and click **New Page**.
+- **Name**: Google Home Page
+- **URL**: https://www.google.com
+- Enable **Capture Submitted Data** and **Capture Passwords**.
+- **Redirect to**: https://www.bmc.com/forms/communities-contact-us.html
+- Click **Save Page**.
+
 
   
 
