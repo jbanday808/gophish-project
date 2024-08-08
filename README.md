@@ -65,16 +65,20 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 1. **Create a New Landing Page**:
    
-- Navigate to **Landing Pages** and click **New Page**.
-- **Name**: Google Home Page
-- **URL**: https://www[.]google[.]com
-- Enable **Capture Submitted Data** and **Capture Passwords**.
-- **Redirect to**: https://www[.]bmc[.]com/forms/communities-contact-us[.]html
-- Click **Save Page**.
+   - Navigate to **Landing Pages** and click **New Page**.
+   - **Name**: Google Home Page
+   - **URL**: https://www[.]google[.]com
+   - Enable **Capture Submitted Data** and **Capture Passwords**.
+   - **Redirect to**: https://www[.]bmc[.]com/forms/communities-contact-us[.]html
+   - Click **Save Page**.
 
-2. 
+2. **Create a New Email Template**:
 
-**NOTE:** You can download the **HTML Content** file from the GitHub repository. 
+   - Navigate to **Email Templates** and click** New Template**.
+   - **Name**: BMC Remedy Password Expiry Notification
+   - **Subject**: Action Required: Your Password is About to Expire
+
+**NOTE:** You can download the **HTML Content - password_expiry_template.html** file from the GitHub repository. 
   
 
 
