@@ -30,6 +30,20 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 **NOTE:** You can download the config.json file from the GitHub repository. This configuration ensures that both the admin and phishing servers are accessible from any network interface, with the admin server using TLS for secure connections. The database is configured to use SQLite, and logging settings are defined for capturing system logs. 
 
-3. **Start Gophish:** sudo ./gophish
+3. **Start Gophish by running the following command in the terminal:** sudo ./gophish
 
-4. 
+4. **Accessing the Gophish Admin Interface:**
+   - Open a web browser and navigate to https://0.0.0.0:3333 or https://<Your-Kali-Linux-IP>:3333
+
+5. Logging In:
+
+   - Username: admin
+   - Password:  0f564e8fxd9171d25
+
+**If You Cannot Log In or Forgot Your Password**:
+
+1. Generate a new password hash:
+
+   - Create a Python script generate_hash.py:
+
+     
