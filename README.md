@@ -148,20 +148,21 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 7. Save the Sending Profile:
 
-If the test email is successful, click the "Save Profile" button to save the sending profile.
+If the test email is successful, click the "**Save Profile**" button to save the sending profile.
 
-8. Update Campaign Settings (Optional):
+8. **Update Campaign Settings (Optional)**:
 
-If you have existing campaigns, you may need to update them to use the new sending profile.
-Navigate to the "Campaigns" tab.
-Edit your campaigns and select the newly created sending profile under the "Sending Profile" section.
+   - If you have existing campaigns, you may need to update them to use the new sending profile.
+   - Navigate to the "Campaigns" tab.
+   - Edit your campaigns and select the newly created sending profile under the "Sending Profile" section.
+
 Troubleshooting Tips:
-Ensure SMTP Access is Enabled:
 
-Make sure that SMTP access is enabled for your Outlook account. You can check this in your Outlook account settings.
-Check Firewall and Network Settings:
+- Ensure SMTP Access is Enabled:
+     - Make sure that SMTP access is enabled for your Outlook account. You can check this in your Outlook account settings.
 
-Ensure that your network or firewall is not blocking SMTP traffic on port 587.
+- Check Firewall and Network Settings:
+   - Ensure that your network or firewall is not blocking SMTP traffic on port 587.
 Use an App Password:
 
 If you have two-factor authentication (2FA) enabled for your Outlook account, generate an app password for use with Gophish. You can create an app password in your Outlook account security settings.
