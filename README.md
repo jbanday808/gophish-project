@@ -156,16 +156,18 @@ If the test email is successful, click the "**Save Profile**" button to save the
    - Navigate to the "Campaigns" tab.
    - Edit your campaigns and select the newly created sending profile under the "Sending Profile" section.
 
-Troubleshooting Tips:
+**Troubleshooting Tips**:
 
-- Ensure SMTP Access is Enabled:
+- **Ensure SMTP Access is Enabled**:
      - Make sure that SMTP access is enabled for your Outlook account. You can check this in your Outlook account settings.
 
-- Check Firewall and Network Settings:
+- **Check Firewall and Network Settings**:
    - Ensure that your network or firewall is not blocking SMTP traffic on port 587.
-Use an App Password:
 
-If you have two-factor authentication (2FA) enabled for your Outlook account, generate an app password for use with Gophish. You can create an app password in your Outlook account security settings.
-Verify Login Credentials:
+- **Use an App Password**:
 
-Double-check your Outlook email address and password. If you recently changed your password, make sure you update it in Gophish.
+   - If you have two-factor authentication (2FA) enabled for your Outlook account, generate an app password for use with Gophish. You can create an app password in your Outlook    account security settings.
+
+- **Verify Login Credentials**:
+
+   - Double-check your Outlook email address and password. If you recently changed your password, make sure you update it in Gophish.
