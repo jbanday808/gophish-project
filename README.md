@@ -72,7 +72,9 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 - **Redirect to**: https://www[.]bmc[.]com/forms/communities-contact-us[.]html
 - Click **Save Page**.
 
+2. 
 
+**NOTE:** You can download the **HTML Content** file from the GitHub repository. 
   
 
 
