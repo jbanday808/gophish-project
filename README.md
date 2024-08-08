@@ -93,14 +93,73 @@ This project demonstrates how to set up and deploy a phishing simulation using G
    - **Name**: Test Group
    - **Add Users**: Add email addresses of the users you want to include in the campaign.
 
-5. Create a New Campaign:
+5. **Create a New Campaig**n:
 
    - Navigate to Campaigns and click New Campaign.
-   - Name: BMC Remedy - Password Expiry Notification
-   - Email Template: BMC Remedy Password Expiry Notification
-   - Landing Page: Google Home Page
-   - URL: https://gophish
-   - Launch Date: Set the desired launch date and time.
-   - Sending Profile: James
-   - Groups: Select Test Group
+   - **Name**: BMC Remedy - Password Expiry Notification
+   - **Email Template**: BMC Remedy Password Expiry Notification
+   - **Landing Page**: Google Home Page
+   - **URL**: https://gophish
+   - **Launch Date**: Set the desired launch date and time.
+   - **Sending Profile**: James
+   - **Groups**: Select Test Group
    - Click Launch Campaign.
+
+**Instructions to Configure the Outlook SMTP Server for Gophish**:
+
+1. **Obtain Outlook SMTP Settings**:
+
+   - **SMTP Server**: smtp.office365.com
+   - **SMTP Port**: 587
+   - **Encryption**: STARTTLS
+   - **Username**: Your Outlook email address (e.g., your_email@outlook.com)
+   - **Password**: Your Outlook account password
+   
+2. Log In to Gophish Admin Panel:
+
+Open your browser and navigate to your Gophish admin panel (e.g., https://0.0.0.0:3333).
+Log in with your Gophish admin credentials.
+
+Navigate to Sending Profiles:
+
+Once logged in, click on the "Sending Profiles" tab on the left sidebar.
+Create a New Sending Profile:
+
+Click on the "New Profile" button to create a new sending profile.
+Configure the Sending Profile:
+
+Name: Enter a name for the profile (e.g., "Outlook SMTP").
+Interface Type: Select "SMTP".
+From Address: Enter your Outlook email address (e.g., your_email@outlook.com).
+Host: Enter smtp.office365.com.
+Username: Enter your Outlook email address (e.g., your_email@outlook.com).
+Password: Enter your Outlook account password.
+SMTP Port: Enter 587.
+Use TLS: Check this box to enable TLS encryption.
+Test the Sending Profile:
+
+Before saving, you can test the sending profile to ensure it works correctly.
+Click on the "Send Test Email" button.
+Enter your email address in the "Recipient Email" field.
+Click "Send" and check your email to verify if the test email was received.
+Save the Sending Profile:
+
+If the test email is successful, click the "Save Profile" button to save the sending profile.
+Update Campaign Settings (Optional):
+
+If you have existing campaigns, you may need to update them to use the new sending profile.
+Navigate to the "Campaigns" tab.
+Edit your campaigns and select the newly created sending profile under the "Sending Profile" section.
+Troubleshooting Tips:
+Ensure SMTP Access is Enabled:
+
+Make sure that SMTP access is enabled for your Outlook account. You can check this in your Outlook account settings.
+Check Firewall and Network Settings:
+
+Ensure that your network or firewall is not blocking SMTP traffic on port 587.
+Use an App Password:
+
+If you have two-factor authentication (2FA) enabled for your Outlook account, generate an app password for use with Gophish. You can create an app password in your Outlook account security settings.
+Verify Login Credentials:
+
+Double-check your Outlook email address and password. If you recently changed your password, make sure you update it in Gophish.
