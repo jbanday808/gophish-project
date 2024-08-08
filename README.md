@@ -67,9 +67,9 @@ This project demonstrates how to set up and deploy a phishing simulation using G
    
 - Navigate to **Landing Pages** and click **New Page**.
 - **Name**: Google Home Page
-- **URL**: https://www.google.com
+- **URL**: https://www[.]google[.]com
 - Enable **Capture Submitted Data** and **Capture Passwords**.
-- **Redirect to**: https://www.bmc.com/forms/communities-contact-us.html
+- **Redirect to**: https://www[.]bmc[.]com/forms/communities-contact-us[.]html
 - Click **Save Page**.
 
 
