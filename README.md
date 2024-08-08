@@ -35,7 +35,7 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 4. **Accessing the Gophish Admin Interface:**
    - Open a web browser and navigate to https://0.0.0.0:3333 or https://<Your-Kali-Linux-IP>:3333
 
-5. Logging In:
+5. **Logging In**:
 
    - Username: admin
    - Password:  0f564e8fxd9171d25
@@ -128,26 +128,29 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
    - Click on the "New Profile" button to create a new sending profile.
 
-5.** Configure the Sending Profile**:
+5. **Configure the Sending Profile**:
 
-Name: Enter a name for the profile (e.g., "Outlook SMTP").
-Interface Type: Select "SMTP".
-From Address: Enter your Outlook email address (e.g., your_email@outlook.com).
-Host: Enter smtp.office365.com.
-Username: Enter your Outlook email address (e.g., your_email@outlook.com).
-Password: Enter your Outlook account password.
-SMTP Port: Enter 587.
-Use TLS: Check this box to enable TLS encryption.
-Test the Sending Profile:
+   - **Name**: Enter a name for the profile (e.g., "Outlook SMTP").
+   - **Interface Type**: Select "SMTP".
+   - **From Address**: Enter your Outlook email address (e.g., your_email@outlook.com).
+   - **Host**: Enter smtp.office365.com.
+   - **Username**: Enter your Outlook email address (e.g., your_email@outlook.com).
+   - **Password**: Enter your Outlook account password.
+   - **SMTP Port**: Enter 587.
+   - **Use TLS**: Check this box to enable TLS encryption.
 
-Before saving, you can test the sending profile to ensure it works correctly.
-Click on the "Send Test Email" button.
-Enter your email address in the "Recipient Email" field.
-Click "Send" and check your email to verify if the test email was received.
-Save the Sending Profile:
+6. **Test the Sending Profile**:
+
+   - Before saving, you can test the sending profile to ensure it works correctly.
+   - Click on the "Send Test Email" button.
+   - Enter your email address in the "Recipient Email" field.
+   - Click "Send" and check your email to verify if the test email was received.
+
+7. Save the Sending Profile:
 
 If the test email is successful, click the "Save Profile" button to save the sending profile.
-Update Campaign Settings (Optional):
+
+8. Update Campaign Settings (Optional):
 
 If you have existing campaigns, you may need to update them to use the new sending profile.
 Navigate to the "Campaigns" tab.
