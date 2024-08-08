@@ -59,7 +59,7 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 - **Open the Gophish database using SQLite**: sqlite3 gophish.db
 - **Update the password for the admin user**: UPDATE users SET hash = 'your_generated_hash' WHERE username = 'admin';
--** Exit SQLite**: .exit
+- **Exit SQLite**: .exit
 
 
   
