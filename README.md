@@ -26,9 +26,9 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 1. **Open config.json:**  vi config.json
 
-2. **Modify the admin_server and phish_server sections to make Gophish accessible from your network:**
+2. Modify the **admin_server** and **phish_server** sections to make Gophish accessible from your network:
 
-**NOTE:** You can download the config.json file from the GitHub repository. This configuration ensures that both the admin and phishing servers are accessible from any network interface, with the admin server using TLS for secure connections. The database is configured to use SQLite, and logging settings are defined for capturing system logs. 
+**NOTE:** You can download the **config.json** file from the GitHub repository. This configuration ensures that both the admin and phishing servers are accessible from any network interface, with the admin server using TLS for secure connections. The database is configured to use SQLite, and logging settings are defined for capturing system logs. 
 
 3. **Start Gophish by running the following command in the terminal:** sudo ./gophish
 
@@ -57,8 +57,10 @@ This project demonstrates how to set up and deploy a phishing simulation using G
     
 2. **Update the Gophish database**: 
 
-- **Open the Gophish database using SQLite**: **sqlite3 gophish.db**
-- **Update the password for the admin user**: **UPDATE users SET hash = 'your_generated_hash' WHERE username = 'admin';**
+- **Open the Gophish database using SQLite**: sqlite3 gophish.db
+- **Update the password for the admin user**: UPDATE users SET hash = 'your_generated_hash' WHERE username = 'admin';
+-** Exit SQLite**: .exit
+
 
   
 
