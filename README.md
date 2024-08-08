@@ -78,7 +78,15 @@ This project demonstrates how to set up and deploy a phishing simulation using G
    - **Name**: BMC Remedy Password Expiry Notification
    - **Subject**: Action Required: Your Password is About to Expire
 
-**NOTE:** You can download the **HTML Content - password_expiry_template.html** file from the GitHub repository. 
+**NOTE:** You can download the **HTML Content - password_expiry_template.html** file from the GitHub repository.
+
+3. Create a New Sending Profile:
+
+Navigate to Sending Profiles and click New Profile.
+Name: James
+Interface Type: SMTP
+Fill in the SMTP server details, using your email provider’s SMTP settings.
+
   
 
 
