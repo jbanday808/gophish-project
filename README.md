@@ -115,18 +115,20 @@ This project demonstrates how to set up and deploy a phishing simulation using G
    - **Username**: Your Outlook email address (e.g., your_email@outlook.com)
    - **Password**: Your Outlook account password
    
-2. Log In to Gophish Admin Panel:
+2. **Log In to Gophish Admin Panel**:
 
-Open your browser and navigate to your Gophish admin panel (e.g., https://0.0.0.0:3333).
-Log in with your Gophish admin credentials.
+   - Open your browser and navigate to your Gophish admin panel (e.g., https://0.0.0.0:3333).
+   - Log in with your Gophish admin credentials.
 
-Navigate to Sending Profiles:
+3. **Navigate to Sending Profiles**:
 
-Once logged in, click on the "Sending Profiles" tab on the left sidebar.
-Create a New Sending Profile:
+   - Once logged in, click on the "Sending Profiles" tab on the left sidebar.
 
-Click on the "New Profile" button to create a new sending profile.
-Configure the Sending Profile:
+4. **Create a New Sending Profile**:
+
+   - Click on the "New Profile" button to create a new sending profile.
+
+5.** Configure the Sending Profile**:
 
 Name: Enter a name for the profile (e.g., "Outlook SMTP").
 Interface Type: Select "SMTP".
