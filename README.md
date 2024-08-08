@@ -142,9 +142,9 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 6. **Test the Sending Profile**:
 
    - Before saving, you can test the sending profile to ensure it works correctly.
-   - Click on the "Send Test Email" button.
-   - Enter your email address in the "Recipient Email" field.
-   - Click "Send" and check your email to verify if the test email was received.
+   - Click on the "**Send Test Email**" button.
+   - Enter your email address in the "**Recipient Email**" field.
+   - Click "**Send**" and check your email to verify if the test email was received.
 
 7. Save the Sending Profile:
 
