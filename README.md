@@ -93,4 +93,14 @@ This project demonstrates how to set up and deploy a phishing simulation using G
    - **Name**: Test Group
    - **Add Users**: Add email addresses of the users you want to include in the campaign.
 
+5. Create a New Campaign:
 
+   - Navigate to Campaigns and click New Campaign.
+   - Name: BMC Remedy - Password Expiry Notification
+   - Email Template: BMC Remedy Password Expiry Notification
+   - Landing Page: Google Home Page
+   - URL: https://gophish
+   - Launch Date: Set the desired launch date and time.
+   - Sending Profile: James
+   - Groups: Select Test Group
+   - Click Launch Campaign.
