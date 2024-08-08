@@ -44,6 +44,22 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 1. Generate a new password hash:
 
-   - Create a Python script generate_hash.py:
+   - **Create a Python script generate_hash.py**:
 
-     
+      import bcrypt
+
+      password = b"your_new_password"
+      hashed = bcrypt.hashpw(password, bcrypt.gensalt())
+      print(hashed.decode())
+
+     - **Run the script**: python3 generate_hash.py
+     - Copy the generated hash.
+    
+2. **Update the Gophish database**: 
+
+- **Open the Gophish database using SQLite**: **sqlite3 gophish.db**
+- **Update the password for the admin user**: **UPDATE users SET hash = 'your_generated_hash' WHERE username = 'admin';**
+
+  
+
+
