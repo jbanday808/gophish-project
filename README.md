@@ -80,13 +80,17 @@ This project demonstrates how to set up and deploy a phishing simulation using G
 
 **NOTE:** You can download the **HTML Content - password_expiry_template.html** file from the GitHub repository.
 
-3. Create a New Sending Profile:
+3. **Create a New Sending Profile**:
 
-Navigate to Sending Profiles and click New Profile.
-Name: James
-Interface Type: SMTP
-Fill in the SMTP server details, using your email provider’s SMTP settings.
+   - Navigate to **Sending Profiles** and click **New Profile**.
+   - **Name**: James
+   - **Interface Type**: SMTP
+   - Fill in the SMTP server details, using your email provider’s SMTP settings.
 
-  
+4. **Create a New Group**:
+
+   - Navigate to **Users & Groups** and click **New Group**.
+   - **Name**: Test Group
+   - **Add Users**: Add email addresses of the users you want to include in the campaign.
 
 
